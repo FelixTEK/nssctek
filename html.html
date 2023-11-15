@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>  
+  <head>
+    <meta charset="utf-8">
+	<style>
+	.myButton {
+		background-color:#44c767;
+		-webkit-border-radius:18px;
+		-moz-border-radius:18px;
+		border-radius:18px;
+		display:inline-block;
+		cursor:pointer;
+		color:#ffffff;
+		font-family:Arial;
+		font-size:20px;
+		font-weight:bold;
+		width:160px;
+		padding:20px 18px;
+		text-decoration:none;
+		text-shadow:2px 4px 0px #2f6627;
+		}
+	.myButton:hover {
+		background-color:#5cbf2a;
+	}
+	.myButton:active {
+		position:relative;
+		top:1px;
+	}
+
+  </style>
+  </head>
+  <body>
+    <table border="0" cellpadding="1" cellspacing="1" style="width:100%">
+		<tbody>
+			<tr>
+				<td>&nbsp;</td>
+				<td><a href="/forward"><input class="myButton" name="btnForward" type="button" value="Forward" /></a></td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td><a href="/left"><input class="myButton" name="btnLeft" type="button" value="LEFT" /></a></td>
+				<td><a href="/stop"><input class="myButton" name="btnStop" type="button" value="STOP" /></a></td>
+				<td><a href="/right"><input class="myButton" name="btnRight" type="button" value="RIGHT" /></a></td>
+				<td>&nbsp;</td>
+				<td><a href="/cmd1"><input class="myButton" name="btnCommand1" type="button" value="COMMAND 1" /></a></td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td>&nbsp;</td>
+				<td><a href="/backward"><input class="myButton" name="btnBackward" type="button" value="Backward" /></a></td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td><a href="/cmd2"><input class="myButton" name="btnCommand2" type="button" value="COMMAND 2" /></a></td>
+				<td>&nbsp;</td>
+			</tr>
+		</tbody>
+	</table>
+  </body>
+</html>
